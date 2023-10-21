@@ -1,0 +1,24 @@
+body, html {
+    height: 100%;
+  }
+  .bg {
+    background-image: url('../../pictures/doctor.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .form-inline{
+    display: flex;
+   padding-top: 5%;
+   padding-left: 30%;
+  }
+  /* .form-control{box-shadow: 10px 5px 5px rgb(27, 33, 33);} */
+  .form-control{box-shadow: none;}
+  #bloc:hover Home{
+    right: 100%;
+    transform: translateX(-100%);
+    animation-duration: 82s;
+  }
+ .citation{padding-top: 15%;padding-bottom: 1px;}
+ 
